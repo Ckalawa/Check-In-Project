@@ -19,7 +19,14 @@ A worker check-in at soldier field that shows employees where their stand is, an
     appId: "1:603118537492:web:e2675b97d0d727070a1001",
     measurementId: "G-P8J3MN4XLV"
   };
+download npm
+  npm install -g firebase-tools
 
+  firebase login
+
+  firebase init
+
+  firebase deploy
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
