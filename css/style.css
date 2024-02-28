@@ -1,4 +1,53 @@
 body.login {
-    background-image: url("media/signin.jpg");
-  }
+    background-image: url("media/login.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
 
+.login-container {
+    position: fixed;
+    bottom: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the login form */
+.login-container form {
+    text-align: center;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-container form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #eb2034;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container form input[type="submit"]:hover {
+    background-color: #eb2034;
+}
