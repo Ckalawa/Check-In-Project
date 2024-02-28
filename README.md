@@ -1,8 +1,7 @@
 # Check-In-Project
 A worker check-in at soldier field that shows employees where their stand is, and allows for our coordinators to have an all-in-one and easy to use website that allows for planning and on premise reports 
 
-
-  <script type="module">
+<script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
@@ -12,16 +11,16 @@ A worker check-in at soldier field that shows employees where their stand is, an
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyC4MPayJxGeAdbdXiSJmo4lN074aTCv5Ag",
-    authDomain: "sf-check-in.firebaseapp.com",
-    projectId: "sf-check-in",
-    storageBucket: "sf-check-in.appspot.com",
-    messagingSenderId: "229267091454",
-    appId: "1:229267091454:web:be573d29acd89e5e951aaf",
-    measurementId: "G-KZK1CMR29N"
+    apiKey: "AIzaSyAE6-CRnUaAIc5Aw7EC-xsKYA6fsz4mvtw",
+    authDomain: "sf-employee.firebaseapp.com",
+    projectId: "sf-employee",
+    storageBucket: "sf-employee.appspot.com",
+    messagingSenderId: "603118537492",
+    appId: "1:603118537492:web:e2675b97d0d727070a1001",
+    measurementId: "G-P8J3MN4XLV"
   };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-  </script>
+</script>
